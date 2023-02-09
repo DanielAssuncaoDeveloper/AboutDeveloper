@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap');
+
+  * {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.container-about_developer {
+    display: flex;
+
+    min-height: 100vh;
+    height: 100%;
+    
+    padding: 70px 20px 20px 70px;
+    background-color: #1E1E1E;
+}
+
+.about_developer {
+    max-width: 800px;
+    width: 100%;
+}
+
+.container-image_developer {
+    margin-right: 80px;
+}
+.image_developer {
+    width: 350px;
+    height: 350px;
+
+    border-radius: 100%;
+    border: 8px solid #3E3A41;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+
+    background-image: url("../../assets/images/image-developer.jfif");
+    background-size: cover;
+}
+
+.description {
+    color: #e0e0e0;
+    font-family: 'Merriweather', serif;
+}
+.description h2 {
+    font-size: 60px;
+    font-weight: 700;
+
+    margin-bottom: 20px;
+}
+.description p {
+    margin-bottom: 70px;
+    font-size: 1em;
+    font-weight: 300;
+
+    text-align: justify;
+    word-wrap: normal;
+}
+
+.contacts {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contacts img{
+    transition: 0.25s;
+    transition-property: all;
+    cursor: pointer;
+}
+
+.contacts img:hover {
+    filter: drop-shadow(0px 6px 4px rgba(0, 0, 0, 0.5))  brightness(1.1);
+}
