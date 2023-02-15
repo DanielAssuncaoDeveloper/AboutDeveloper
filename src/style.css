@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;1,200;1,300;1,400;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
 
 * {
     margin: 0;
@@ -82,5 +83,98 @@ body {
 
 .contacts img:hover {
     filter: drop-shadow(0px 6px 4px rgba(0, 0, 0, 0.5))  brightness(1.1);
+}
+
+
+.container-stack {
+    padding: 60px;
+}
+.container-stack h2 {
+    font-size: 40px;
+}
+
+.container-technologies {
+    display: flex;
+    justify-content: space-evenly;
+
+    margin-top: 50px;
+}
+
+.container-technologies p {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    text-align: center;
+
+    height: 86px;
+}
+
+.skill-csharp,
+.skill-javascript,
+.skill-reactjs,
+.skill-docker,
+.skill-sqlserver {
+    width: 220px;
+    height: 250px;
+    padding: 10px;
+
+    background-color: #3A3737;
+    
+    border-radius: 5px;
+    border-style: solid;
+    border-width: 1.2px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+    box-sizing: initial;
+}
+
+.skill-csharp {
+    border-color: #9F3DAE;
+    box-shadow: 2px 2px 4px rgba(159, 61, 174, 0.25);
+}
+.skill-csharp span {
+    color: #9F3DAE;
+    font-weight: 700;
+}
+
+.skill-javascript {
+    border-color: #F7DF1E;
+    box-shadow: 2px 2px 4px rgba(247, 223, 30, 0.25);
+}
+.skill-javascript span {
+    color: #F7DF1E;
+    font-weight: 700;
+}
+
+.skill-reactjs {
+    border-color: #61DAFB;
+    box-shadow: 2px 3px 4px rgba(97, 218, 251, 0.25);
+}
+.skill-reactjs span {
+    color: #61DAFB;
+    font-weight: 700;
+}
+
+.skill-docker {
+    border-color: #1D91B4;
+    box-shadow: 2px 2px 4px rgba(29, 145, 180, 0.25);
+}
+.skill-docker span {
+    color: #1D91B4;
+    font-weight: 700;
+}
+
+.skill-sqlserver {
+    border-color: #A91D22;
+    box-shadow: 2px 2px 4px rgba(169, 29, 34, 0.3);
+}
+.skill-sqlserver span {
+    color: #CD1E24;
+    font-weight: 700;
 }
 
